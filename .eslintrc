@@ -1,5 +1,5 @@
 {
-	"extends": "happiness",
+//	"extends": "happiness",
 	"globals": {
 		"THREE": false,
 		"TWEEN": false,
@@ -47,7 +47,7 @@
 		"object-property-newline": "off",
 		"eol-last": "off"
 	},
-	"parserOptions": { 
-		"ecmaVersion": 6 
+	"parserOptions": {
+		"ecmaVersion": 6
 	}
 }
