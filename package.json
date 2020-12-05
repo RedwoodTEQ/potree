@@ -19,6 +19,7 @@
   "scripts": {
     "start": "gulp watch",
     "build": "gulp build pack",
+    "build-to-vue": "gulp build pack && cp ./build/potree/potree.** ../public/potree-build/potree/",
     "postinstall": "npm run build"
   },
   "dependencies": {
